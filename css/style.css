@@ -1,0 +1,48 @@
+
+   .home{
+    width: 50%;
+
+   }
+
+   .search{
+    width: 25%;
+   }
+   .table{
+    width: 50%;
+   }
+@media screen and (max-width :592px){
+    .home{
+        width: 90% !important;
+    }
+    .search{
+        width: 50%;
+       }
+    thead tr th {
+        font-size: .6rem;
+        padding: .3rem ;
+    }
+    tbody{
+        font-size: .5rem;
+    }
+    
+}
+
+@media screen and (max-width:992px) and (min-width:592px) {
+    .home{
+        width: 80%;
+    }
+    .search{
+        width: 50%;
+       }
+       .table{
+        width: 70%;
+       }
+    thead tr th {
+        font-size: .9rem;
+        padding: .8rem ;
+    }
+    tbody{
+        font-size: .6rem;
+    }
+    
+}
