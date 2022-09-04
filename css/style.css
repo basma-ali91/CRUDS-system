@@ -24,6 +24,13 @@
     tbody{
         font-size: .5rem;
     }
+    tbody button{
+        font-size: .5rem !important;
+        padding: .25rem;
+    }
+    tbody button i{
+        display: none !important;
+    }
     
 }
 
@@ -43,6 +50,10 @@
     }
     tbody{
         font-size: .6rem;
+    }
+    tbody button{
+        font-size: .7rem !important;
+        padding: .25rem;
     }
     
 }
